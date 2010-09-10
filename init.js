@@ -9,6 +9,9 @@ define_key(content_buffer_normal_keymap, "d", "follow-new-buffer");
 // adblockplus is good
 require("extensions/adblockplus.js");
 
+// i need my gmail hotkeys
+require("page-modes/gmail.js");
+
 // use emacs as external editor.
 editor_shell_command = "emacs";
 
