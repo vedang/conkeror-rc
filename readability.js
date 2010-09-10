@@ -4,7 +4,7 @@ interactive("readability_arc90",
                     var document = I.window.buffers.current.document;
 
                     var readConvertLinksToFootnotes = false;
-                    var readStyle = 'style-inverse';
+                    var readStyle = 'style-apertura';
                     var readSize = 'size-large';
                     var readMargin = 'margin-narrow';
 
