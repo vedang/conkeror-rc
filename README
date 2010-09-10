@@ -1,1 +1,11 @@
-A repository for my Conkeror settings
+A repository for my Conkeror settings.
+======================================
+
+Conkeror loads it's settings from a file called .conkerorrc which should be present in your home directory.
+
+My .conkerorrc has the following in it:
+
+user_pref('conkeror.rcfile', '/home/vedang/conkeror-rc');
+reinit();
+
+This loads all the .js files in the conkeror-rc folder.
