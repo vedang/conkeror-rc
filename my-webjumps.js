@@ -8,6 +8,7 @@ define_webjump("youtube", "http://www.youtube.com/results?search_query=%s&search
 define_webjump("emacswiki",
                "http://www.google.com/cse?cx=004774160799092323420%3A6-ff2s0o6yi&q=%s&sa=Search&siteurl=emacswiki.org%2F",
                $alternative="http://www.emacswiki.org/");
+define_webjump("github", "http://www.github.com/search?q=%s&type=Everything&repo=&langOverride=&start_value=1");
 
 // Personalized Webjumps
 add_delicious_webjumps("vedang");
