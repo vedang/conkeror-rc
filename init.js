@@ -18,6 +18,18 @@ editor_shell_command = "emacs";
 // view source in your editor.
 view_source_use_external_editor = true;
 
+// Mozrepl
+user_pref('extensions.mozrepl.autoStart', true);
+
+let (mozrepl_init = get_home_directory()) {
+        mozrepl_init.appendRelativePath(".mozrepl.js");
+        session_pref('extensions.mozrepl.initUrl', make_uri(mozrepl_init).spec);
+};
+
+// complete from history!
+// this should be enabled by default
+url_completion_use_history = true;
+
 // let xkcd-mode put the funny alt text into the page.
 xkcd_add_title = true;
 
