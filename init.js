@@ -26,10 +26,6 @@ let (mozrepl_init = get_home_directory()) {
         session_pref('extensions.mozrepl.initUrl', make_uri(mozrepl_init).spec);
 };
 
-// complete from history!
-// this should be enabled by default
-url_completion_use_history = true;
-
 // let xkcd-mode put the funny alt text into the page.
 xkcd_add_title = true;
 
