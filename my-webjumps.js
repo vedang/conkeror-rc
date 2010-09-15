@@ -11,6 +11,7 @@ define_webjump("emacswiki",
                $alternative="http://www.emacswiki.org/");
 define_webjump("github", "http://www.github.com/search?q=%s&type=Everything&repo=&langOverride=&start_value=1");
 define_webjump("bee", "http://www.beemp3.com/index.php?q=%s&st=all");
+define_webjump("mdc", "https://developer.mozilla.org/Special:Search?search=%s&type=fulltext&go=Search");
 
 // Personalized Webjumps
 add_delicious_webjumps("vedang");
