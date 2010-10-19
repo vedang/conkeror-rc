@@ -5,12 +5,15 @@ clicks_in_new_buffer_button = 2;
 
 // follow link in new buffer
 define_key(content_buffer_normal_keymap, "d", "follow-new-buffer");
+define_key(content_buffer_normal_keymap, "t", "find-url-new-buffer");
 
 // adblockplus is good
 require("extensions/adblockplus.js");
 
 // i need my gmail hotkeys
 require("page-modes/gmail.js");
+define_key(gmail_keymap, "t", "find-url-new-buffer");
+define_key(gmail_keymap, "return", null, $fallthrough);
 
 // use emacs as external editor.
 editor_shell_command = "emacs";
