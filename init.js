@@ -13,7 +13,7 @@ define_key(gmail_keymap, "t", "find-url-new-buffer");
 define_key(gmail_keymap, "return", null, $fallthrough);
 
 // use emacs as external editor.
-editor_shell_command = "emacsclient";
+editor_shell_command = "emacsclient -c";
 
 // view source in your editor.
 view_source_use_external_editor = true;
