@@ -16,6 +16,7 @@ define_key(gmail_keymap, "return", null, $fallthrough);
 editor_shell_command = "emacsclient -c";
 
 // view source in your editor.
+//invoke emacs on text fields with C-i
 view_source_use_external_editor = true;
 
 // Mozrepl
